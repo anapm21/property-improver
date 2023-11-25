@@ -23,7 +23,7 @@ if uploaded_files:
   
 for uploaded_file in uploaded_files:
     st.write(uploaded_file.name)
-    print (uploaded_files)
+    st.image(uploaded_files)
 
 #user_name = st.text_input('Tell me your name')
 
