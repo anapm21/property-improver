@@ -3,9 +3,7 @@ from PIL import Image
 
 #st.title("property-improver")
 
-st.markdown("<h2 style='text-align: center; color: white;'>Mejora tu propiedad con </h2>", unsafe_allow_html=True)
-st.markdown("<h1 style='text-align: center; color: white;'>Property Improve</h1>", unsafe_allow_html=True)
-
+st.markdown("<h1 style='text-align: center; color: white;'>Mejora tu propiedad con </h1>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: white;'>Carga aqui tu imagen</h2>", unsafe_allow_html=True)
 
 #st.markdown("App mejora de propiedades")
