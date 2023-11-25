@@ -1,6 +1,8 @@
 import streamlit as st
 from PIL import Image
 
+clear all 
+
 #st.title("property-improver")
 
 st.markdown("<h1 style='text-align: center; color: white;'>Mejora tu propiedad con Property Improver </h1>", unsafe_allow_html=True)
