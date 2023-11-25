@@ -6,8 +6,8 @@ from PIL import Image
 st.markdown("<h1 style='text-align: center; color: white;'>Mejora tu propiedad con </h1>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: white;'>Carga aqui tu imagen</h2>", unsafe_allow_html=True)
 
-imagefelecha = Image.open('felecha.png'aling:center)
-st.image(imagefelecha, caption='')
+imagefelecha = Image.open('felecha.png')
+st.image(imagefelecha, caption='',aling:center)
 
 #st.markdown("App mejora de propiedades")
 #st.button('Click')
