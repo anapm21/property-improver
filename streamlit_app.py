@@ -15,7 +15,7 @@ st.markdown("<h2 style='text-align: center; color: white;'>Carga aqui tu imagen<
 #image = Image.open('img_1.jpg')
 #st.image(image, caption='Sunrise by the mountains')
 
-clear = st.bottom(Clear)   
+clear = st.button(Clear)   
 
 
 #uploaded_files = st.file_uploader("")
