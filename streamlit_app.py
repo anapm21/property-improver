@@ -22,5 +22,5 @@ datos = st.file_uploader("")
 
 
 if datos:
-    st.marckdown("<h6 style='text-align: center; color: white;'>Imagen cargada correctamente</h2>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: center; color: white;'>Imagen cargada correctamente</h2>", unsafe_allow_html=True)
 
