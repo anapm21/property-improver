@@ -16,3 +16,5 @@ st.image(imagefelecha, caption='',aling: center)
 #st.image(image, caption='Sunrise by the mountains')
 
 datos = st.file_uploader("")
+
+st.text_input('Tell me your name')
