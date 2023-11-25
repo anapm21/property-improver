@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import IMAGE
+from PIL import Image
 
 st.title("property-improver")
 st.button('Click')
