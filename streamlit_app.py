@@ -13,4 +13,4 @@ image = Image.open('img_1.jpg')
 
 #st.image(image, caption='Sunrise by the mountains')
 
-datos = st.file_uploader
+datos = st.file_uploader(<h2 style='text-align: center; color: white;'>Carga tu imagen</h2>", unsafe_allow_html=True)
