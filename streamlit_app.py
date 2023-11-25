@@ -3,7 +3,7 @@ from PIL import Image
 
 st.title("property-improver")
 
-st.title("<h1 style='text-align: center; color: white;'>Big headline</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white;'>Big headline</h1>", unsafe_allow_html=True)
 
 st.markdown("<h2 style='text-align: center; color: black;'>Smaller headline in black </h2>", unsafe_allow_html=True)
 
