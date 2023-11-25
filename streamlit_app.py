@@ -20,10 +20,10 @@ uploaded_files = st.file_uploader("Elige tus archivos", accept_multiple_files=Tr
 
 if uploaded_files:
     st.markdown("<h6 style='text-align: center; color: white;'>Imagen cargada correctamente</h2>", unsafe_allow_html=True)
-     print (uploaded_file)
+  
 for uploaded_file in uploaded_files:
     st.write(uploaded_file.name)
-    print (uploaded_file)
+    print (uploaded_files)
 
 #user_name = st.text_input('Tell me your name')
 
