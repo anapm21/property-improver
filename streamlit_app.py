@@ -3,4 +3,4 @@ from PIL import Image
 
 st.title("property-improver")
 st.button('Click')
-st.image(img_1.jpg)
+st.Image(img_1.jpg)
