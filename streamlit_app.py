@@ -22,7 +22,6 @@ if uploaded_files:
     st.markdown("<h6 style='text-align: center; color: white;'>Imagen cargada correctamente</h2>", unsafe_allow_html=True)
   
 for uploaded_file in uploaded_files:
-    st.write(uploaded_file.name)
     st.image(uploaded_file,width=300,caption=uploaded_file.name)
 
 #user_name = st.text_input('Tell me your name')
