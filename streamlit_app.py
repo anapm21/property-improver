@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
-casa1='0'
-casa2='0'
+casa1=0
+casa2=0
 #st.title("property-improver")
 
 st.markdown("<h1 style='text-align: center; color: white;'>Mejora tu propiedad con Property Improver </h1>", unsafe_allow_html=True)
@@ -18,10 +18,10 @@ with col2:
  casa2 = st.button ("Casa 2")
 
 if 'casa1':
- casa1='1'
+ casa1=1
 
 if 'casa2':
- casa2='1'
+ casa2=1
 
 print('casa1','casa2')
  
