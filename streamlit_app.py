@@ -12,7 +12,7 @@ with col1:
  st.image('img_1.jpg')
  st.button ("Casa 1")
 
-with col1:
+with col2:
  st.image('img_2.jpg')
  st.button ("Casa 2")
 
