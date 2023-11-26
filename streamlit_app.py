@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
-
+casa1=0
+casa2=0
 #st.title("property-improver")
 
 st.markdown("<h1 style='text-align: center; color: white;'>Mejora tu propiedad con Property Improver </h1>", unsafe_allow_html=True)
@@ -10,13 +11,19 @@ col1, col2 = st.columns (2)
 
 with col1:
  st.image('img_1.jpg')
- st.button ("Casa 1")
+ casa1 = st.button ("Casa 1")
 
 with col2:
  st.image('img_2.jpg')
- st.button ("Casa 2")
+ casa2 = st.button ("Casa 2")
 
+if casa1:
+ casa1=1
 
+if casa2:
+ casa2=1
+
+print(casa1,casa2)
  
 
 #imagefelecha = Image.open('felecha.png')
