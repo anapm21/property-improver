@@ -11,15 +11,11 @@ col1, col2 = st.columns (2)
 with col1:
  st.image('img_1.jpg')
  st.button ("Casa 1")
- st.image('house3.jpg')
- st.button ("Casa 2")
 
 with col1:
  st.image('img_2.jpg')
  st.button ("Casa 2")
- st.image('house4.jpg')
- st.button ("Casa 4")
- 
+
 
  
 
