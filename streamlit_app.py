@@ -16,12 +16,14 @@ st.markdown("<h2 style='text-align: center; color: white;'>Carga aqui tu imagen<
 #st.image(image, caption='Sunrise by the mountains')
 
 #uploaded_files = st.file_uploader("")
-uploaded_files = st.file_uploader("Elige tus archivos", accept_multiple_files=True)
+#uploaded_files = st.file_uploader("Elige tus archivos", accept_multiple_files=True)
 
-if uploaded_files:
-    st.markdown("<h6 style='text-align: center; color: white;'>Imagen cargada correctamente</h2>", unsafe_allow_html=True)
+st.selectbox(label, options, index=0, format_func=special_internal_function, key=None, help=None, on_change=None, args=None, kwargs=None, *, placeholder="Choose an option", disabled=False, label_visibility="visible")
 
-clear = st.button("Eliminar imagenes subidas")
+#if uploaded_files:
+ #   st.markdown("<h6 style='text-align: center; color: white;'>Imagen cargada correctamente</h2>", unsafe_allow_html=True)
+
+#clear = st.button("Eliminar imagenes subidas")
 
 for uploaded_file in uploaded_files:
     st.image(uploaded_file,width=300,caption=uploaded_file.name)
