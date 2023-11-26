@@ -17,13 +17,13 @@ with col2:
  st.image('img_2.jpg')
  casa2 = st.button ("Casa 2")
 
-if casa1:
+if 'casa1':
  casa1='1'
 
-if casa2:
+if 'casa2':
  casa2='1'
 
-print(casa1,casa2)
+print('casa1','casa2')
  
 
 #imagefelecha = Image.open('felecha.png')
