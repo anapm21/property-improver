@@ -15,11 +15,10 @@ st.markdown("<h2 style='text-align: center; color: white;'>Carga aqui tu imagen<
 #image = Image.open('img_1.jpg')
 #st.image(image, caption='Sunrise by the mountains')
 
-clear = st.button("Clear")   
-
-
 #uploaded_files = st.file_uploader("")
 uploaded_files = st.file_uploader("Elige tus archivos", accept_multiple_files=True)
+
+clear = st.button("Clear")   
 
 if uploaded_files:
     st.markdown("<h6 style='text-align: center; color: white;'>Imagen cargada correctamente</h2>", unsafe_allow_html=True)
