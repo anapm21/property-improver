@@ -18,7 +18,7 @@ st.markdown("<h2 style='text-align: center; color: white;'>Carga aqui tu imagen<
 #uploaded_files = st.file_uploader("")
 #uploaded_files = st.file_uploader("Elige tus archivos", accept_multiple_files=True)
 
-st.selectbox(label, options, index=0, format_func=special_internal_function, key=None, help=None, on_change=None, args=None, kwargs=None, *, placeholder="Choose an option", disabled=False, label_visibility="visible")
+st.selectbox()
 
 #if uploaded_files:
  #   st.markdown("<h6 style='text-align: center; color: white;'>Imagen cargada correctamente</h2>", unsafe_allow_html=True)
