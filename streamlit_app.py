@@ -21,11 +21,7 @@ uploaded_files = st.file_uploader("Elige tus archivos", accept_multiple_files=Tr
 if uploaded_files:
     st.markdown("<h6 style='text-align: center; color: white;'>Imagen cargada correctamente</h2>", unsafe_allow_html=True)
 
-columns = st.columns(3)
-with columns[1]:
-    st.write("AAAAAA")
-
-clear = st.button("Clear")
+clear = st.button("Eliminar imagenes subidas")
 
 for uploaded_file in uploaded_files:
     st.image(uploaded_file,width=300,caption=uploaded_file.name)
