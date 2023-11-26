@@ -45,13 +45,13 @@ print(casa1,casa2)
 
 #clear = st.button("Eliminar imagenes subidas")
 
-for uploaded_file in uploaded_files:
-    st.image(uploaded_file,width=300,caption=uploaded_file.name)
+#for uploaded_file in uploaded_files:
+  #  st.image(uploaded_file,width=300,caption=uploaded_file.name)
 
 #user_name = st.text_input('Tell me your name')
 
-if clear:
-    uploaded_file=0
+#if clear:
+ #   uploaded_file=0
 
 
 
